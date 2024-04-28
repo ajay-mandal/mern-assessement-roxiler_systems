@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "50c49f3a-9470-4b3c-9a40-a288bfd2772d",
+		"name": "backend-ani",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20912028"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/transactions?search=casual&page=3&perPage=5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/transactions?search=casual&page=3&perPage=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "casual"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						},
+						{
+							"key": "perPage",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/initdb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/initdb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"initdb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/statistics?year=2022&month=03",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/statistics?month=09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"statistics"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "09"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/barchart?month=6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/barchart?month=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"barchart"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/piechart?month=2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/piechart?month=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"piechart"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/combined?month=2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/combined?month=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"combined"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
